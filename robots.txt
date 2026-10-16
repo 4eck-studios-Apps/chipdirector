@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://4eck-studios-apps.github.io/chipdirector/sitemap.xml

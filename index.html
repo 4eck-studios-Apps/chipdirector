@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ChipDirector – Poker-Turniersoftware für Vereine und Homegames</title>
+    <meta
+      name="description"
+      content="ChipDirector ist die Poker-Turniersoftware für Windows: Turnieruhr für den TV, Blindstruktur, Sitzplan mit Tischausgleich, Auszahlungen, Spielerstatistik. Läuft offline, mit eigenem Logo und Design."
+    />
+    <link rel="canonical" href="https://4eck-studios-apps.github.io/chipdirector/" />
+    <meta name="theme-color" content="#07080c" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_DE" />
+    <meta property="og:site_name" content="ChipDirector" />
+    <meta property="og:title" content="ChipDirector – Poker-Turniersoftware für Vereine und Homegames" />
+    <meta
+      property="og:description"
+      content="Turnieruhr, Sitzplan, Auszahlungen und Statistik in einem Programm. Für Windows, offline, mit eigenem Vereinslogo."
+    />
+    <meta property="og:url" content="https://4eck-studios-apps.github.io/chipdirector/" />
+    <meta property="og:image" content="https://4eck-studios-apps.github.io/chipdirector/assets/icon.png" />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "SoftwareApplication",
+            "name": "ChipDirector",
+            "applicationCategory": "GameApplication",
+            "applicationSubCategory": "Poker Tournament Management",
+            "operatingSystem": "Windows 10, Windows 11",
+            "description": "Poker-Turniersoftware für Vereine und Homegames: Turnieruhr, Blindstruktur, Sitzplan mit Tischausgleich, Auszahlungen und Spielerstatistik. Läuft offline.",
+            "url": "https://4eck-studios-apps.github.io/chipdirector/",
+            "image": "https://4eck-studios-apps.github.io/chipdirector/assets/icon.png",
+            "publisher": { "@type": "Organization", "name": "4eck Studios" },
+            "offers": [
+              { "@type": "Offer", "name": "Home", "price": "29.00", "priceCurrency": "EUR" },
+              { "@type": "Offer", "name": "Club", "price": "79.00", "priceCurrency": "EUR" }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Braucht ChipDirector eine Internetverbindung?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nur einmalig zur Aktivierung mit deiner Seriennummer. Danach läuft ChipDirector komplett offline – ideal für Vereinsheime und Locations ohne WLAN."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kann ich die Turnieruhr auf einem Fernseher zeigen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja. Uhr und Sitzplan öffnen sich in eigenen Fenstern, die du auf einen zweiten Bildschirm oder TV ziehst und mit F11 im Vollbild zeigst."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Was ist der Unterschied zwischen Home und Club?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Home ist für private Runden auf einem PC. Club erlaubt die Nutzung auf bis zu drei PCs und die gewerbliche Nutzung, z. B. durch Vereine mit Startgeld, Bars oder Veranstalter."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="./"><img src="assets/favicon.png" alt="" width="30" height="30" />ChipDirector</a>
+        <nav class="nav" aria-label="Hauptnavigation">
+          <a class="hide-sm" href="#funktionen">Funktionen</a>
+          <a class="hide-sm" href="#so-gehts">So geht's</a>
+          <a href="#preise">Preise</a>
+          <a class="hide-sm" href="#faq">FAQ</a>
+          <a class="btn btn-gold btn-small" href="#preise">Kaufen</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrap">
+          <div>
+            <span class="eyebrow">Poker-Turniersoftware für Windows</span>
+            <h1>Dein Pokerturnier.<br /><em>Professionell geleitet.</em></h1>
+            <p class="lead">
+              Turnieruhr für den TV, Blindstruktur, Sitzplan mit Tischausgleich, Auszahlungen und
+              Spielerstatistik – in einem Programm. Mit deinem Vereinslogo und deinen Farben. Läuft
+              offline.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-gold" href="#preise">Lizenz kaufen – ab 29 €</a>
+              <a class="btn btn-ghost" href="#funktionen">Funktionen ansehen</a>
+            </div>
+            <p class="hero-note">Einmalzahlung · kein Abo · Updates für Version 1.x inklusive</p>
+          </div>
+
+          <div class="screen" role="img" aria-label="Beispiel: Turnieruhr von ChipDirector auf einem Fernseher">
+            <div class="screen-inner">
+              <div class="mock-top">
+                <span><b>♠ Freitagsturnier</b></span>
+                <span>Spieler 27 / 32</span>
+              </div>
+              <div class="mock-center">
+                <div>
+                  <div class="mock-level">Level 7</div>
+                  <div class="mock-time">14:52</div>
+                  <div class="mock-blinds">400 / 800 <span>Ante 800</span></div>
+                  <div class="mock-bar" style="margin-inline: auto"><i></i></div>
+                </div>
+              </div>
+              <div class="mock-stats">
+                <div><small>Preispool</small><strong>640 €</strong></div>
+                <div><small>Ø Stack</small><strong>23.700</strong></div>
+                <div><small>Nächste</small><strong>500 / 1.000</strong></div>
+                <div><small>Pause in</small><strong>34:52</strong></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="funktionen">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Alles, was ein Turnierleiter braucht</h2>
+            <p>Vom ersten Buy-in bis zur Siegerehrung – ohne Zettel, Excel und Handy-Timer.</p>
+          </div>
+          <div class="grid grid-3">
+            <article class="card">
+              <div class="icon" aria-hidden="true">⏱</div>
+              <h3>Turnieruhr für den TV</h3>
+              <p>
+                Großer Countdown mit Blinds, Ante, nächstem Level, Pausen, Preispool und
+                Durchschnittsstack. Mit Sprachansagen bei Levelwechsel.
+              </p>
+            </article>
+            <article class="card">
+              <div class="icon" aria-hidden="true">▤</div>
+              <h3>Blindstrukturen &amp; Vorlagen</h3>
+              <p>
+                Level und Pausen frei festlegen, Hinweise wie „Chip Race“ einblenden. Bewährte
+                Turniere als Vorlage speichern und mit einem Klick wiederverwenden.
+              </p>
+            </article>
+            <article class="card">
+              <div class="icon" aria-hidden="true">⬚</div>
+              <h3>Sitzplan &amp; Tischausgleich</h3>
+              <p>
+                Zufällige Sitzverteilung, Anzeige für die Spieler und Hinweise, wann Tische
+                ausgeglichen oder zusammengelegt werden müssen.
+              </p>
+            </article>
+            <article class="card">
+              <div class="icon" aria-hidden="true">€</div>
+              <h3>Auszahlungen</h3>
+              <p>
+                Preisgeld in Prozent vom Pool oder als feste Beträge, mit Schnellauswahl für
+                gängige Verteilungen. Der Pool rechnet sich aus den tatsächlichen Buy-ins.
+              </p>
+            </article>
+            <article class="card">
+              <div class="icon" aria-hidden="true">♣</div>
+              <h3>Spieler &amp; Statistik</h3>
+              <p>
+                Spielerkartei mit Mitgliedern und Gästen, Turnierhistorie, Gewinne und
+                Platzierungen. Ergebnisbericht nach jedem Turnier.
+              </p>
+            </article>
+            <article class="card">
+              <div class="icon" aria-hidden="true">✦</div>
+              <h3>Dein Look</h3>
+              <p>
+                Vereinsname, Logo, sechs Designs, eigene Akzentfarbe und eigene Hintergrundbilder –
+                auf Uhr, Sitzplan und Startseite.
+              </p>
+            </article>
+            <article class="card">
+              <div class="icon" aria-hidden="true">↻</div>
+              <h3>Late Registration &amp; Sonderformate</h3>
+              <p>
+                Nachmeldungen während des Turniers, „2nd Chance“-Hausregel mit Add-on und ein
+                Heads-up-Turnier mit Gruppenphase und K.-o.-Runde.
+              </p>
+            </article>
+            <article class="card">
+              <div class="icon" aria-hidden="true">⌁</div>
+              <h3>Offline &amp; sicher</h3>
+              <p>
+                Alle Daten bleiben auf deinem PC. Kein Konto, keine Cloud, kein WLAN im Vereinsheim
+                nötig. Sicherung und Wiederherstellung per Datei.
+              </p>
+            </article>
+            <article class="card">
+              <div class="icon" aria-hidden="true">⇪</div>
+              <h3>Automatische Updates</h3>
+              <p>
+                Neue Funktionen und Fehlerbehebungen kommen automatisch – nie mitten im Turnier,
+                sondern wenn du es willst.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="so-gehts" class="section-alt">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>In drei Minuten startklar</h2>
+            <p>Keine Installation von Zusatzprogrammen, keine Einrichtung eines Servers.</p>
+          </div>
+          <div class="grid grid-3 steps">
+            <div class="card">
+              <h3>Lizenz kaufen</h3>
+              <p>Du bekommst deine Seriennummer und den Download-Link sofort per E-Mail.</p>
+            </div>
+            <div class="card">
+              <h3>Installieren &amp; aktivieren</h3>
+              <p>Setup starten, Seriennummer eingeben – fertig. Ab jetzt läuft ChipDirector offline.</p>
+            </div>
+            <div class="card">
+              <h3>Turnier anlegen</h3>
+              <p>
+                Buy-in, Blinds und Auszahlung festlegen, Spieler eintragen, Uhr auf den TV –
+                Shuffle up and deal.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="preise">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Einmal zahlen. Dauerhaft nutzen.</h2>
+            <p>Kein Abo. Alle Updates der Version 1.x sind inklusive.</p>
+          </div>
+          <div class="grid grid-2 pricing">
+            <div class="card plan">
+              <div class="plan-name">Home</div>
+              <div class="price">29 € <small>einmalig</small></div>
+              <ul>
+                <li>Alle Funktionen</li>
+                <li>1 PC</li>
+                <li>Für private Runden ohne Gewinnabsicht</li>
+                <li>Updates für Version 1.x</li>
+              </ul>
+              <a class="btn btn-ghost" href="#" data-checkout="home">Home kaufen</a>
+            </div>
+            <div class="card plan featured">
+              <div class="plan-name">Club</div>
+              <div class="price">79 € <small>einmalig</small></div>
+              <ul>
+                <li>Alle Funktionen</li>
+                <li>Bis zu 3 PCs gleichzeitig</li>
+                <li>Gewerbliche Nutzung: Vereine, Bars, Veranstalter</li>
+                <li>Updates für Version 1.x</li>
+              </ul>
+              <a class="btn btn-gold" href="#" data-checkout="club">Club kaufen</a>
+            </div>
+          </div>
+          <p class="pricing-note">
+            Preise inkl. MwSt. Bezahlung sicher über unseren Zahlungsanbieter Lemon Squeezy (Karte, PayPal u. a.),
+            der auch die Rechnung ausstellt. 14 Tage Geld-zurück-Garantie.
+          </p>
+        </div>
+      </section>
+
+      <section id="faq" class="section-alt">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Häufige Fragen</h2>
+          </div>
+          <div class="faq">
+            <details>
+              <summary>Auf welchen Geräten läuft ChipDirector?</summary>
+              <p>
+                Auf PCs und Laptops mit Windows 10 oder Windows 11 (64 Bit). Der Installer bringt alles
+                mit, was das Programm braucht.
+              </p>
+            </details>
+            <details>
+              <summary>Braucht ChipDirector eine Internetverbindung?</summary>
+              <p>
+                Nur einmalig zur Aktivierung mit deiner Seriennummer. Danach läuft ChipDirector
+                komplett offline – ideal für Vereinsheime und Locations ohne WLAN.
+              </p>
+            </details>
+            <details>
+              <summary>Kann ich die Turnieruhr auf einem Fernseher zeigen?</summary>
+              <p>
+                Ja. Uhr und Sitzplan öffnen sich in eigenen Fenstern, die du auf einen zweiten
+                Bildschirm oder TV ziehst und mit F11 im Vollbild zeigst.
+              </p>
+            </details>
+            <details>
+              <summary>Was ist der Unterschied zwischen Home und Club?</summary>
+              <p>
+                Home ist für private Runden auf einem PC. Club erlaubt die Nutzung auf bis zu drei PCs
+                und die gewerbliche Nutzung, z. B. durch Vereine mit Startgeld, Bars oder Veranstalter.
+              </p>
+            </details>
+            <details>
+              <summary>Ich habe einen neuen PC – was nun?</summary>
+              <p>
+                Auf dem alten PC unter Einstellungen → Lizenz „Auf diesem Gerät deaktivieren“ wählen und
+                auf dem neuen PC mit derselben Seriennummer aktivieren. Falls der alte PC nicht mehr
+                läuft, schreib uns kurz – wir geben ihn frei.
+              </p>
+            </details>
+            <details>
+              <summary>Wo liegen meine Turnier- und Spielerdaten?</summary>
+              <p>
+                Ausschließlich auf deinem PC. Über „Sicherung“ exportierst du alles in eine Datei und
+                kannst es auf einem anderen PC wieder einspielen.
+              </p>
+            </details>
+            <details>
+              <summary>Gibt es ein Abo oder versteckte Kosten?</summary>
+              <p>
+                Nein. Du zahlst einmal und nutzt ChipDirector dauerhaft. Alle Updates der Version 1.x
+                sind inklusive.
+              </p>
+            </details>
+            <details>
+              <summary>Ist ChipDirector ein Glücksspielprogramm?</summary>
+              <p>
+                Nein. ChipDirector ist ein Organisationswerkzeug für Turnierleiter – es verwaltet Uhr,
+                Spieler, Tische und Auszahlungen. Es werden keine Einsätze angenommen und keine Spiele
+                ausgetragen. Für die Einhaltung der jeweils geltenden Regeln ist der Veranstalter
+                verantwortlich.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" id="kontakt">
+        <div class="wrap">
+          <h2>Bereit für dein nächstes Turnier?</h2>
+          <p>
+            Fragen vor dem Kauf? Schreib uns:
+            <a href="mailto:KONTAKT_EMAIL">KONTAKT_EMAIL</a>
+          </p>
+          <a class="btn btn-gold" href="#preise">Lizenz kaufen</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <span>© 2026 4eck Studios · ChipDirector</span>
+        <nav aria-label="Rechtliches">
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+          <a href="mailto:KONTAKT_EMAIL">Kontakt</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
